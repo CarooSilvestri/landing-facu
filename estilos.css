@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /* CSS Document */
-/*pagina para gradientes https://cssgradient.io/*/
 
 /*Esto siempre va al incio del doc de estilos*/
 *  {
@@ -50,9 +49,19 @@ body {
 	color: #D96941;
 }
 
+.explicacion {
+	
+	font-size: 25pt;
+	color: #D96941;
+}
+
 .animal {
 	margin-top: 15%;
 	margin-bottom: 15%;
+}
+
+.numero {
+	font-size: 60pt;
 }
 
 .info {
