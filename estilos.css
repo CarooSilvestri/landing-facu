@@ -19,10 +19,38 @@ header, footer, .navbar {
 }
 
 
+.navbar .navbar-brand {
+	font-size: 20pt;
+}
+.navbar #navbarDropdown {
+	font-size: 16pt;
+}
+.navbar .navbar-brand,
+.navbar #navbarDropdown {
+	color:#A62B1F;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	background: rgb(25,60,64);
+	color: #D96941;
+	border-radius: 3px;
+}
+
+.dropdown-menu .dropdown-item {
+	color:#D96941;
+	font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item:hover {
+
+	background: #2E5902;
+}
+
 body {
 
 	background: rgb(25,60,64);
-	background: linear-gradient(0deg, rgba(33,64,1,1) 0%, rgba(25,60,64,1) 50%);
+	background: linear-gradient(0deg, #214001 0%, rgba(25,60,64,1) 50%);
 }
 
 #home {
