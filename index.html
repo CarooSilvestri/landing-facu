@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animales salvajes</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="estilos.css" rel="stylesheet">
+</head>
+
+<body>
+
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
+	<!-- info animales: https://www.anipedia.net/ -->
+	<!-- imagenes: https://www.pexels.com/ -->
+
+	<!-- El navbar se queda pegado arriba -->
+	<header class="fixed-top">
+
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<div class="container-fluid">
+					<h1 class="navbar-brand">Mundo Animal</h1>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								  Herbívoros
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								  <li><a class="dropdown-item" href="#">Elefante</a></li>
+								  <li><a class="dropdown-item" href="#">Cebra</a></li>
+								  <li><a class="dropdown-item" href="#">Something else here</a></li>
+								</ul>
+							</li>
+							
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								  Carnivoros
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								  <li><a class="dropdown-item" href="#">Action</a></li>
+								  <li><a class="dropdown-item" href="#">Another action</a></li>
+								  <li><a class="dropdown-item" href="#">Something else here</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Contenido de la página -->
+	<section class="container-fluid">
+		
+		<div class="row justify-content-evenly align-content-center" id="home">
+			<div class="col-7">
+				<h1 class="titulo-principal">Animales salvajes</h1>
+				<p>
+					Se conoce como animal salvaje a aquél que vive en libertad, ya sea sobre la superficie terrestre, en el agua o volando.
+				</p>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row" id="herbivoros">
+				<h1 class="titulo">Herbívoros</h1>		
+
+				<div class="col-12">
+
+					<!-- Elefante -->
+					<div class="row animal mb-5 mt-5" id="elefante">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/elefante.jpg" alt="elefante" class="img-fluid">
+								</div>
+
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+
+										<p class="col-2" style="font-size:60pt;">01</p>
+										<div class="col-10">
+											<hr>
+											<h1>Elefante</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Elephantidae</li>
+										<li><b>Peso: </b> 3500 – 6500 kg. Son los animales terrestres más grandes que existen en la actualidad.</li>
+										<li><b>Longevidad: </b>48 – 70 años</li>
+										<li><b>Período de gestación: </b>18 – 22 meses. El más largo en cualquier animal terrestre.</li>
+										<li><b>Dieta: </b>Frutas, ramas, hojas</li>
+										<li><b>Dato curioso: </b>El elefante más grande que se ha cazado, de los que se tiene registro, pesó alrededor de 11
+											000 kg (Angola, 1956), alcanzando una altura en la cruz de 3,96 m, un metro más alto que el
+											elefante africano promedio</li>
+									</ul>
+								</aside>
+							</div>
+						</article>
+					</div>
+
+					<!-- Jirafa -->
+					<div class="row animal" id="elefante">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">02</p>
+										<div class="col-10">
+											<hr>
+											<h1>Jirafa</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Giraffa camelopardalis</li>
+										<li><b>Peso: </b> 1000 – 1900 kg.</li>
+										<li><b>Tamaño: </b> 380 – 570 cm</li>
+										<li><b>Longevidad: </b>25 – 30 años</li>
+										<li><b>Período de gestación: </b>450 – 465 días</li>
+										<li><b>Dieta: </b>Pastizales y hojas de árboles</li>
+										<li><b>Dato curioso: </b>Cuando dos jirafas frotan su cuello, no se están expresando cariño. Al contrario, están combatiendo entre sí por una hembra.</li>
+									</ul>
+								</aside>
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/jirafa.jpg" alt="jirafa" class="img-fluid">
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<!-- Hipopótamo -->
+					<div class="row animal" id="elefante">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/hipopotamo.jpg" alt="hipopotamo" class="img-fluid">
+								</div>
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">03</p>
+										<div class="col-10">
+											<hr>
+											<h1>Hipopótamo</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Hippopotamus amphibius</li>
+										<li><b>Peso: </b> 1300-1800Kg</li>
+										<li><b>Tamaño: </b>150 cm de altura y hasta 5,2 de largo</li>
+										<li><b>Longevidad: </b>40 – 50 años</li>
+										<li><b>Período de gestación: </b>450 – 465 días</li>
+										<li><b>Dieta: </b>hierbas y vegetales</li>
+										<li><b>Dato curioso: </b>Aún teniendo en cuenta su elevado peso puede llegar a correr tan rápido como un ser humano.</li>
+									</ul>
+								</aside>
+							</div>
+						</article>
+					</div>
+
+					<!-- Rinoceronte -->
+					<div class="row animal" id="elefante">
+						<article class="col-12 justify-content-between">
+							<div class="row align-items-center">
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">04</p>
+										<div class="col-10">
+											<hr>
+											<h1>Rinoceronte</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Rhinocerotidae</li>
+										<li><b>Peso: </b>800 – 2.300 kgs</li>
+										<li><b>Tamaño: </b> 1,3 – 1,9 metros</li>
+										<li><b>Longevidad: </b>50 años</li>
+										<li><b>Período de gestación: </b>17 meses</li>
+										<li><b>Dieta: </b>Plantas blandas</li>
+										<li><b>Dato curioso: </b>No ataca para alimentarse, 
+											pero sí lo hace porque no cuenta con muy buena visión y es por ello que cómo no sabe bien lo que pasa, 
+											muchas veces suele atacar para defenderse de lo que considera que puede ser un peligro.</li>
+									</ul>
+								</aside>
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/rinoceronte.jpg" alt="rinoceronte.jpg" class="img-fluid">
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<!-- Conejo -->
+					<div class="row animal" id="elefante">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/conejo.jpg" alt="conejo" class="img-fluid">
+								</div>
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">05</p>
+										<div class="col-10">
+											<hr>
+											<h1>Conejo</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Oryctolagus cuniculus</li>
+										<li><b>Peso: </b>1,1 – 2,5 kg</li>
+										<li><b>Tamaño: </b>34 cm – 50 cm</li>
+										<li><b>Longevidad: </b>9 – 12 años</li>
+										<li><b>Período de gestación: </b>29 – 35 días</li>
+										<li><b>Dieta: </b> Frutas, heno, verduras</li>
+										<li><b>Dato curioso: </b>Con los humanos son muy sociables, al igual que con otros miembros de su especie o incluso con otro tipo de animales o mascotas, una vez que haya cogido la suficientemente confianza para acercarse y entablar una relación, buscará ese contacto muchas más veces con el fin de sentirse querido y en compañía.</li>
+									</ul>
+								</aside>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Carnívoros -->
+			<div class="row">
+				<h1 class="titulo">Carnívoros</h1>
+				<div class="col-12">
+					
+					<!-- Águila -->
+					<div class="row animal mb-5 mt-5" id="aguila">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/aguila.jpg" alt="aguila" class="img-fluid">
+								</div>
+
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+
+										<p class="col-2" style="font-size:60pt;">01</p>
+										<div class="col-10">
+											<hr>
+											<h1>Águila</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Aquila chrysaetos</li>
+										<li><b>Peso: </b>450 gramos – 7 kilogramos</li>
+										<li><b>Longevidad: </b>14 – 25 años</li>
+										<li><b>Tamaño: </b> 70 – 95 cm</li>
+										<li><b>Período de gestación: </b>30 – 50 días</li>
+										<li><b>Dieta: </b>peces, mamíferos, insectos, reptiles</li>
+										<li><b>Dato curioso: </b>Las águilas, a diferencia de muchas otras aves, tienen un cuerpo quizás algo más delgado con unas amplias alas y una cabeza pequeña pero con grandes ojos.</li>
+									</ul>
+								</aside>
+							</div>
+						</article>
+					</div>
+
+					<!-- Tigre -->
+					<div class="row animal" id="tigre">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">02</p>
+										<div class="col-10">
+											<hr>
+											<h1>Tigre</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Panthera tigris</li>
+										<li><b>Peso: </b>90 – 310 kg</li>
+										<li><b>Tamaño: </b>70 – 120 cm</li>
+										<li><b>Longevidad: </b>20 – 26 años</li>
+										<li><b>Período de gestación: </b>93 – 112 días</li>
+										<li><b>Dieta: </b> Mamíferos, aves, reptiles</li>
+										<li><b>Dato curioso: </b>Es el félido más grande de nuestro planeta</li>
+									</ul>
+								</aside>	
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/tigre.jpg" alt="tigre" class="img-fluid">
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<!-- Leopardo -->
+					<div class="row animal" id="leopardo">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/leopardo.jpg" alt="leopardo" class="img-fluid">
+								</div>
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">03</p>
+										<div class="col-10">
+											<hr>
+											<h1>Leopardo</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Panthera pardus</li>
+										<li><b>Peso: </b>31 kg</li>
+										<li><b>Tamaño: </b>45 – 80 cm</li>
+										<li><b>Longevidad: </b>12 – 17 años</li>
+										<li><b>Período de gestación: </b>90 – 105 días</li>
+										<li><b>Dieta: </b>Mamíferos, aves</li>
+										<li><b>Dato curioso: </b>Son muy veloces y potente.</li>
+									</ul>
+								</aside>
+							</div>
+						</article>
+					</div>
+
+					<!-- Lobo -->
+					<div class="row animal" id="lobo">
+						<article class="col-12 justify-content-between">
+							<div class="row align-items-center">
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">04</p>
+										<div class="col-10">
+											<hr>
+											<h1>Lobo</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Canis Lupus</li>
+										<li><b>Peso: </b>30 – 80 kg</li>
+										<li><b>Tamaño: </b>80 – 85 cm</li>
+										<li><b>Longevidad: </b>12 – 18 años</li>
+										<li><b>Período de gestación: </b>62 – 75 días</li>
+										<li><b>Dieta: </b>Mamíferos, aves, reptiles, peces</li>
+										<li><b>Dato curioso: </b>Cuando una manada decide salir a cazar junta, lo más habitual es que varios lobos ataquen a una misma presa, buscando siempre sus puntos débiles y consiguiendo derribarla para atacarles finalmente todos a la vez.</li>
+									</ul>
+								</aside>
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/lobo.jpg" alt="lobo" class="img-fluid">
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<!-- Tiburón -->
+					<div class="row animal" id="tiburon">
+						<article class="col-12">
+							<div class="row align-items-center">
+								<div class="col-sm-12 col-md-12 col-lg-6">
+									<img src="img/tiburon.jpg" alt="tiburon" class="img-fluid">
+								</div>
+								<aside class="col-sm-12 col-md-12 col-lg-6 info">
+
+									<div class="row align-items-center">
+										<p class="col-2" style="font-size:60pt;">05</p>
+										<div class="col-10">
+											<hr>
+											<h1>Tiburón</h1>
+										</div>
+									</div>
+									
+									<h4>Información</h4>
+									<ul>
+										<li><b>Nombre científico: </b>Selachimorpha</li>
+										<li><b>Peso: </b>21 toneladas</li>
+										<li><b>Tamaño: </b>4 – 7 metros</li>
+										<li><b>Longevidad: </b>20 – 30 años</li>
+										<li><b>Período de gestación: </b>3 meses – 2 años</li>
+										<li><b>Dieta: </b>Peces, mamíferos, aves</li>
+										<li><b>Dato curioso: </b>Tienen una preferencia por las aguas más frías.</li>
+									</ul>
+								</aside>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+			
+
+			
+				
+			<!-- 		<div class="g-0 col-sm-4" id="fila4">
+						<div class="g-0d-none d-lg-block">
+							<iframe width="380" height="420" src="https://www.youtube.com/embed/MPDVLdj6sLY"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+				</div> -->
+
+			
+		
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<span>Todos los derechos reservados Facundo Casanga 3ro Multimedial 2022.</span>
+		</div>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

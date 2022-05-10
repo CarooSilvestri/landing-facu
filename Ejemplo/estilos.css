@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: black;
+}
+
+header, footer {
+	background-color: aqua;
+}
+
+section {
+	background-color: aquamarine;
+}
+
+#fila1 {
+	background-color: burlywood;
+}
+
+article {
+	background-color:darksalmon;
+}
+
+aside {
+	background-color: darkcyan;
+}
+
+.color {
+	background-color: lawngreen;
+}
+
+.colorcito {
+	background-color: beige;
+}

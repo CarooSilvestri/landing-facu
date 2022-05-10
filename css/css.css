@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+header, footer {
+	background-color: skyblue;
+}
+
+section {
+	background-color: cyan;
+}
+
+#fila1 {
+	background-color: blue;
+}
+
+article {
+	background-color:yellow;
+}
+
+aside {
+	background-color: darkcyan;
+}
+
+.color {
+	background-color: red;
+}
+
+.colorcito {
+	background-color: beige;
+}
+	

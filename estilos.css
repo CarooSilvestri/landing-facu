@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*pagina para gradientes https://cssgradient.io/*/
+
+/*Esto siempre va al incio del doc de estilos*/
+*  {
+	margin: 0;
+	padding: 0;
+}
+
+
+header, footer, .navbar {
+	background-color: transparent;
+	color: #D96941;
+}
+
+.navbar {
+	padding: 1%;	
+}
+
+
+body {
+
+	background: rgb(25,60,64);
+	background: linear-gradient(0deg, rgba(33,64,1,1) 0%, rgba(25,60,64,1) 50%);
+}
+
+#home {
+	background-image:linear-gradient(0deg, rgba(25,60,64,1) 0%, rgba(25,60,64,0) 100%), url(img/home.jpg);
+	background-position: center;
+	height: 100vh;
+	margin-bottom: 5%;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.titulo-principal {
+
+	font-size: 100pt;
+}
+
+#home p {
+	font-size: 25pt;
+}
+
+.titulo {
+
+	font-size: 50pt;
+	color: #D96941;
+}
+
+.animal {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.info {
+	color: whitesmoke;
+}
+
+
+footer {
+	padding: 1%;
+	text-align: center;
+	font-weight: bold;
+}
